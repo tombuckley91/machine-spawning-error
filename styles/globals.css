@@ -1,0 +1,53 @@
+/* Put imports here maybe? */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* In the style default theme */
+  :root {
+    /* colours */
+
+    /* Text colours */
+    --color-text-primary: #414042;
+    --color-text-secondary: #ffff;
+    --color-text-tertiary: #414042;
+    --color-text-accent: green;
+
+    /* Background colours */
+    --color-background-primary: #f7d6d1;
+    --color-background-secondary: #eeedec;
+    --color-background-tertiary: #414042;
+    --color-background-accent: hsla(0, 0%, 100%, 0.5);
+    --color-background-accent-secondary: black;
+    /* Input fields */
+    /* --color-input-focused: blue;
+    --color-input-valid: green;
+    --color-input-invalid: red; */
+
+    /* Price */
+    /* --color-price-sale: green;
+    --color-price-original: gray; */
+
+    /* Links */
+
+    /* fonts */
+
+    /* font families */
+    --font-text-heading: "Bebas Neue", sans-serif;
+    --font-text-content: "Lato", sans-serif;
+    /* font sizes */
+    --font-text-md: 16px;
+  }
+
+  /* Example theme */
+
+  .jac-theme {
+    --color-text-base: #fff;
+  }
+
+  .black-friday {
+    --color-text-primary: #fff;
+  }
+}
